@@ -23,7 +23,8 @@ Running MultiMatch:
 NOTE: when the arguments for the options that are explained below require to supply a "path to some file" you must use absolute paths
 (e.g. /home/usr/Documents/Myfile.txt instead of ~/Documents/Myfile.txt)
 
-options
+Options:
+
 	--mapconsensus [pathToConsensusSequences] [pathToBowtie2index] [MisMatchCutoff]
 		this option can be used to align the CirSeq consensus sequences produced by ConsensusGeneration.py, a script that is part of the current CirSeq software
 		distribution. It is faster than the aligning methods provided with the current CirSeq software distribution, and recovers more variant counts.
